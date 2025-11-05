@@ -7,6 +7,5 @@ public class FVCalc {
         double rateMultiplier = 1 + r / 100.0;
         double fv = P * Math.pow(rateMultiplier, t);
 		int fv2 = (int) fv;
-		System.out.println("The future value of your investment is: " + fv2);
-	}
+        System.out.println("After " + t + " years, $" + P + " saved at " + r + "% will yield $" + fv2);	}
 }

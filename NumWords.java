@@ -5,10 +5,6 @@ public static void main(String args[]) {
 int hundreds = num / 100;
 int tens = (num / 10) % 10;
 int units = num % 10;
-System.out.println("The number is: " + num);
-System.out.println("Hundreds: " + hundreds);
-System.out.println("Tens: " + tens);
-System.out.println("Units: " + units);
-
+System.out.println(hundreds + " hundreds, " + tens + " tens, and " + units + " ones.");
 	}
 }
